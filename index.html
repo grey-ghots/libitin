@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Índigo</title>
+  <link rel="stylesheet" href="estilo.css">
+<style>
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  color: white;
+  
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #01000e;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.post {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #8a84e2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  background-color: #1e1e2f;
+  color: white;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #8a84e2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6e67c8;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>🌌 Proyecto Índigo</h1>
+    <p class="subtitulo">Lo esencial es invisible a los ojos...</p>
+  </header>
+
+  <main>
+    <section id="publicaciones">
+      <article class="post">
+        <h2>@Monika</h2>
+        <p>Hoy soñé que estaba despierta. Pero era mentira.</p>
+      </article>
+      <article class="post">
+        <h2>@Invitado_001</h2>
+        <p>¿Y si todo esto ya pasó? ¿Y si estamos repitiendo el sueño?</p>
+      </article>
+    </section>
+
+    <form id="nuevo-post">
+      <textarea placeholder="Escribe tu mensaje..."></textarea>
+      <button type="submit">Publicar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Proyecto Índigo</p>
+  </footer>
+</body>
+</html>
